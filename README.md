@@ -160,7 +160,7 @@ alembic -c app/db/migrations/alembic.ini upgrade head
 
 ### 5. Start the server
 ```bash
-uvicorn main:app --reload
+uvicorn app.main:app --reload
 ```
 ## 📄 License
 

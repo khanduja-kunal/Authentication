@@ -1,7 +1,7 @@
 import os
 import shutil
 from uuid import uuid4
-from fastapi import UploadFile, HTTPException, status
+from fastapi import HTTPException, status
 from sqlalchemy.ext.asyncio import AsyncSession
 from app.api.v1.user.schema import UserProfileUpdateMultipart
 from app.api.v1.user import repository
