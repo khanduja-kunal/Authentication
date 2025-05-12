@@ -156,6 +156,7 @@ pip install -r requirements.txt
 ### 4. Run migrations
 ```bash
 alembic -c app/db/migrations/alembic.ini upgrade head
+alembic -c app/db/migrations/alembic.ini revision --autogenerate -m "Add tables"
 ```
 
 ### 5. Start the server
